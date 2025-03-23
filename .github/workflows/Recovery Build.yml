@@ -18,15 +18,15 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/TeamWin/android_device_asus_I003D
+        default: https://github.com/ethicalfighter56/twrp_android_device_samsung_hero2lte.git
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: android-12.1
+        default: android-9.0
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/asus/I003D
+        default: device/samsung/hero2lte
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
@@ -41,7 +41,6 @@ on:
         options:
         - boot
         - recovery
-        - vendor_boot
         required: true
         default: recovery
       RECOVERY_INSTALLER:
