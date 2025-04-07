@@ -18,15 +18,15 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/ethicalfighter56/oneplus_nord_ce_2_twrp_tree.git
+        default: https://github.com/ethicalfighter56/Device_Oneplus_Oscar_TWRP.git
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: twrp_12.1-ivan
+        default:  Stable_V2
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/oneplus/ivan
+        default: device/oneplus/oscar
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
