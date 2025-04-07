@@ -18,19 +18,19 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/ethicalfighter56/twrp_android_device_samsung_hero2lte.git
+        default: https://github.com/ethicalfighter56/oneplus_nord_ce_2_twrp_tree.git
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: android-9.0
+        default: android-12.1
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/samsung/hero2lte
+        default: device/oneplus/ivan
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
-        default: I003D
+        default: oplus6893
       REPOPICK_PATCHES:
         description: (Optional) Gerrit commit numbers separated by a space to be included in the build (leave blank if not using)
         type: string
