@@ -22,7 +22,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: android-12.1
+        default: twrp_12.1-ivan
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
